@@ -24,7 +24,7 @@ session_start();
 
         ?>
 
-        <img src="obr/auto.jpg" width="800" height="450">
+        <img src="../obr/auto.jpg" width="800" height="450">
         <br>
 
         <form action="next4.php" method="post" name="next4" >
@@ -40,6 +40,6 @@ session_start();
         //print_r($array);
     }
     else{
-        exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=index.php>hlavní stránku</a>.</p>");
+        exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=../index.php>hlavní stránku</a>.</p>");
     }
 ?>

@@ -24,11 +24,11 @@ session_destroy();
 
         ?>
 
-        <img src="obr/obr2.png" width="100" height="100">
-        <img src="obr/obr3.png" width="100" height="100">
-        <img src="obr/obr4.png" width="100" height="100">
-        <img src="obr/obr6.gif" width="100" height="100">
-        <img src="obr/obr9.png" width="100" height="100">
+        <img src="../obr/obr2.png" width="100" height="100">
+        <img src="../obr/obr3.png" width="100" height="100">
+        <img src="../obr/obr4.png" width="100" height="100">
+        <img src="../obr/obr6.gif" width="100" height="100">
+        <img src="../obr/obr9.png" width="100" height="100">
         <br>
 
         <form action="next2.php" method="post" name="next2" >
@@ -40,6 +40,6 @@ session_destroy();
 <?php
     }
     else{
-        exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=index.php>hlavní stránku</a>.</p>");
+        exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=../index.php>hlavní stránku</a>.</p>");
     }
 ?>
