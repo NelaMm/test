@@ -1,9 +1,11 @@
 
 <?php
-  
+    ini_set("default_charset", "UTF-8");
+    
     if(isset($_POST["setting"]))
     {
         echo "nastav";
+
 
       
     }
