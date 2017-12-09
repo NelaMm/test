@@ -129,6 +129,9 @@ session_start();
 
 ?>
 
+<img src="obr/lide.jpg" width="693" height="462">
+<br>
+
 
 <form action="next12.php" method="post" name="next12" >
     <td >
@@ -137,6 +140,7 @@ session_start();
 </form>
 
 <?php
+//print_r($_SESSION);
 
     }
     else{

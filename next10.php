@@ -4,7 +4,7 @@
     if(isset($_POST["next10"]))
     {?>
 
-        <br>Jaká barva byla na obrázku?<br>
+        <br>Které barvy byly na obrázku?<br>
 
         <form action="next11.php" method="post" name="next11">
         

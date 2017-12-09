@@ -5,17 +5,17 @@
     {?>
      
 
-        <br>Jakou barvu mělo auto na obrázku?<br>
+        <br>Jakou tovární značku mělo auto na obrázku?<br>
 
         <form action="next5.php" method="post" name="next5">
         
        
-       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked1";?> value="1"> Modrou<br>
-        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked2";?> value="0"> Červenou<br>
-       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked3";?> value="0"> Černou<br>
-       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="true") echo "checked4";?> value="0"> Zelenou<br>
-        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="true") echo "checked4";?> value="0"> Stříbrnou<br>
-        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked5";?> value="0"> Nevím<br>
+       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked1";?> value="0"> Volvo<br>
+        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked2";?> value="0"> Seat<br>
+       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked3";?> value="0"> BMW<br>
+       <input type="radio" name="answer"<?php if (isset($answer) && $answer=="true") echo "checked4";?> value="1"> Kia<br>
+        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="true") echo "checked4";?> value="0"> Ford<br>
+        <input type="radio" name="answer"<?php if (isset($answer) && $answer=="false") echo "checked5";?> value="0"> Jiné<br>
 
         <input type="submit" name="next5" value="Odpovědět" />
         </form>
