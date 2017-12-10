@@ -1,17 +1,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-
+<div id=tst align=center>
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
-	if(isset($_POST["result"]))//tlacitko 
+	if(isset($_POST["result"]))//tlacitko
     {
         $_SESSION["ans6"] = 0;
         if(isset($_POST["answer1"]))
@@ -77,7 +77,7 @@ session_start();
         }
         else{
              $_SESSION["ans6"] += 0;
-                            
+
         }
         if(isset($_POST["answer6"]))
         {
@@ -114,7 +114,7 @@ session_start();
         if($res<0) $res = 0;
         echo "Správnost odpovědí je ".$res."%";//procentualni vysledek na 2 desetinna mista
 
-    
+
     ?>
 
  <br>
