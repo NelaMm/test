@@ -11,7 +11,7 @@
         <form action="next3.php" method="post" name="next3">
         
         Ano<input type="radio" name="answer" value="0">
-        Ne<input type="radio" name="answer value="1">
+        Ne<input type="radio" name="answer" value="1">
        
         <br><input type="submit" name="next3" value="Odpovědět" />
         </form>

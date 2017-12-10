@@ -29,8 +29,6 @@ session_start();
         if($res<0) $res = 0;
         echo "Správnost odpovědí je ".$res."%";//procentualni vysledek na 2 desetinna mista
 
-    //print_r($_SESSION);
-
     
     ?>
 

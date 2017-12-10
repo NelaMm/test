@@ -57,7 +57,6 @@ table, td {
 
 <?php
 
-        //print_r($array);
     }
     else{
         exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=../index.php>hlavní stránku</a>.</p>");

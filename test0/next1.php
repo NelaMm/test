@@ -1,7 +1,9 @@
 
  <?php
 session_start();
+session_unset(); 
 session_destroy(); 
+session_start();
 ?> 
 <?php
     ini_set("default_charset", "UTF-8");
