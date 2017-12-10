@@ -3,6 +3,13 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next"]))
     {?>
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barvy</title>
+<link rel="stylesheet" type="text/css" href="../style.css">   
+</head>
+
 <div id=tst align=center>
         <br>Které barvy byly na obrázku?<br>
 
