@@ -4,14 +4,17 @@ ini_set("default_charset", "UTF-8");
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test krátkodobé paměti</title>
-<link rel="stylesheet" type="text/css" href="style.css">   
+<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <div id="test">
 
     <h1>Test krátkodobé paměti</h1>
-    
+    <br>
+    <br>
+      <h2>Souhrnné testy</h2>
+
     <table align="center">
     <form action="test0/test.php" method="post" name="test0/test" >
         <td >
@@ -24,15 +27,21 @@ ini_set("default_charset", "UTF-8");
         </td>
         </form>
         </table>
-
+        <br>
+        <br>      <br>
     <h2>Témata</h2>
 
 <h3>Čísla</h3>
 
+
 <table align="center">
+
+</table>
+<table align="center">
+
  <form action="cisla/cisla.php" method="post" name="testCis" >
      <td>
-    <input  class="button" type="submit" name="testCis" value="1" /> 
+    <input  class="button" type="submit" name="testCis" value="1" />
      </td>
 </form>
 
@@ -68,4 +77,4 @@ ini_set("default_charset", "UTF-8");
         </td>
     </form>
 </table>
-</div>   
+</div>
