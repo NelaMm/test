@@ -75,13 +75,13 @@ table td{
    <tr>
       <td>
         <label class="container">
-          <input type="checkbox" name="answer1" value="1">
+          <input type="checkbox" name="answer1" value="-1">
            <span class="checkmark"></span>
            </label>
       </td>
       <td>
         <label class="container">
-          <input type="checkbox" name="answer2" value="-1">
+          <input type="checkbox" name="answer2" value="1">
            <span class="checkmark"></span>
          </label>
       </td>
@@ -107,7 +107,7 @@ table td{
       </td>
       <td>
         <label class="container">
-          <input type="checkbox" name="answer6" value="-1">
+          <input type="checkbox" name="answer6" value="1">
            <span class="checkmark"></span>
          </label>
       </td>
@@ -127,7 +127,7 @@ table td{
     </td>
       <td>
         <label class="container">
-          <input type="checkbox" name="answer9" value="-1">
+          <input type="checkbox" name="answer9" value="1">
            <span class="checkmark"></span>
          </label>
       </td>
