@@ -1,20 +1,20 @@
-   
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next"]))
     {?>
-    
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barvy</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 <div id=tst align=center>
-        <br>Které barvy byly na obrázku?<br>
+      <h2>  <br>Které barvy byly na obrázku?<br></h2>
 
         <form action="next1.php" method="post" name="next1">
-        
+
     <td bgcolor="#79ecd3"> &nbsp &nbsp &nbsp &nbsp</td>
     <td> &nbsp &nbsp &nbsp &nbsp</td>
     <td bgcolor="#cd75b8"> &nbsp &nbsp &nbsp &nbsp</td>
@@ -24,7 +24,7 @@
     <td bgcolor="#f0f036"> &nbsp &nbsp &nbsp &nbsp</td>
     <td> &nbsp &nbsp &nbsp &nbsp</td>
     <td bgcolor="#30f059"> &nbsp &nbsp &nbsp &nbsp</td>
-       
+
       <table> <td bgcolor="#FF0000"><input type="checkbox" name="answer1" value="-1"> &nbsp &nbsp &nbsp &nbsp</td> </table>
         <table><td bgcolor="#888988"><input type="checkbox" name="answer2" value="1">  &nbsp &nbsp &nbsp &nbsp</td> </table>
        <table> <td bgcolor="#000000"><input type="checkbox" name="answer3"  value="-1"> &nbsp &nbsp &nbsp &nbsp</td> </table>
