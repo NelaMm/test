@@ -1,10 +1,10 @@
    
 <?php
     ini_set("default_charset", "UTF-8");
-    if(isset($_POST["next6"]))
+    if(isset($_POST["next8"]))
     {?>
 <div id=tst align=center>
-<br>Označte původně zelená pole.<br>
+<br>Označte původně modrá pole.<br>
 
 <style>
 table, td {
@@ -12,14 +12,14 @@ table, td {
 }
 </style>
 
-<form action="next7.php" method="post" name="next7">
+<form action="next9.php" method="post" name="next9">
 <table>
  <tr>
     <td>
-        <input type="checkbox" name="answer1" value="-1"> 
+        <input type="checkbox" name="answer1" value="1"> 
     </td>
     <td>
-        <input type="checkbox" name="answer2" value="1">
+        <input type="checkbox" name="answer2" value="-1">
     </td>
     <td> 
         <input type="checkbox" name="answer3" value="-1">
@@ -33,7 +33,7 @@ table, td {
         <input type="checkbox" name="answer5"  value="1"> 
     </td>
     <td> 
-        <input type="checkbox" name="answer6" value="1">
+        <input type="checkbox" name="answer6" value="-1">
     </td>
   </tr>
   <tr>
@@ -44,13 +44,13 @@ table, td {
       <input type="checkbox" name="answer8" value="-1">
   </td>
     <td> 
-        <input type="checkbox" name="answer9" value="1">
+        <input type="checkbox" name="answer9" value="-1">
     </td>
   </tr>
 </table>
 
 
-        <br><input type="submit" name="next7" value="Odpovědět" />
+        <br><input type="submit" name="next9" value="Odpovědět" />
         </form>
 </div>
 <?php

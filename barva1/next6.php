@@ -16,7 +16,7 @@ table, td {
 <table>
  <tr>
     <td>
-        <input type="checkbox" name="answer1" value="-1"> 
+        <input type="checkbox" name="answer1" value="1"> 
     </td>
     <td>
         <input type="checkbox" name="answer2" value="1">
@@ -30,7 +30,7 @@ table, td {
         <input type="checkbox" name="answer4" value="-1">
     </td>
      <td>
-        <input type="checkbox" name="answer5"  value="1"> 
+        <input type="checkbox" name="answer5"  value="-1"> 
     </td>
     <td> 
         <input type="checkbox" name="answer6" value="1">
@@ -41,10 +41,10 @@ table, td {
      <input type="checkbox" name="answer7" value="-1">
  </td>
      <td>
-      <input type="checkbox" name="answer8" value="-1">
+      <input type="checkbox" name="answer8" value="1">
   </td>
     <td> 
-        <input type="checkbox" name="answer9" value="1">
+        <input type="checkbox" name="answer9" value="-1">
     </td>
   </tr>
 </table>

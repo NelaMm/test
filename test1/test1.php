@@ -7,6 +7,8 @@
 
         ?>
 <div id=tst align=center>
+    Souhrnný test se týká všech témat - čísla, obrázky i barvy.<br>
+    Jako první Vám budou zobrazny obrázky (viz níže), po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí týkající se předchozích obrázků, ze kterých vyberete jednu či více možností. Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
         <img src="../obr/obr7.png" width="100" height="100">
         <img src="../obr/obr9.png" width="100" height="100">
         <img src="../obr/obr4.png" width="100" height="100">

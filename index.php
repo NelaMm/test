@@ -46,7 +46,7 @@ ini_set("default_charset", "UTF-8");
 </table>
 
 <h3>Barvy</h3>
- <form action="testBar.php" method="post" name="testBar" >
+ <form action="barva1/testBar.php" method="post" name="barva1/testBar" >
         <td >
             <input  class="button" type="submit" name="testBar" value="1" />
         </td>

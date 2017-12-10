@@ -31,10 +31,10 @@ session_start();
 
     
     ?>
-<div id=tst align=center>
+
  <br>
 <a href=../index.php>hlavní stránka</a>
-</div>
+
 <?php
     }
     else{

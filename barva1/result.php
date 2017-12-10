@@ -25,7 +25,7 @@ session_start();
         foreach ( $_SESSION as $val) {
             $sum += $val;
         }
-        $res = round($sum/13*100, 2);
+        $res = round($sum/14*100, 2);
         if($res<0) $res = 0;
         echo "Správnost odpovědí je ".$res."%";//procentualni vysledek na 2 desetinna mista
 
