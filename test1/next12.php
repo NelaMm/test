@@ -1,20 +1,20 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-   
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next12"]))
     {?>
      <div id=tst align=center>
-        <br>Kolik žen bylo na obrázku?<br>
+      <h2>  <br>Kolik žen bylo na obrázku?<br></h2>
 
         <form action="result.php" method="post" name="result">
-        
-       
+
+
        <input type="radio" name="answer" value="0">0<br>
         <input type="radio" name="answer" value="0">1<br>
        <input type="radio" name="answer" value="1">2 <br>
@@ -25,7 +25,7 @@
         <input type="radio" name="answer" value="0">7<br>
         <input type="radio" name="answer" value="0">více<br>
 
-        <input type="submit" name="result" value="Odpovědět a vyhodnotit" />
+        <input class="button"  type="submit" name="result" value="Odpovědět a vyhodnotit" />
         </form>
 </div>
 <?php
