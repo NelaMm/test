@@ -19,12 +19,7 @@ ini_set("default_charset", "UTF-8");
         <td >
             <input class="button" type="submit" name="test1" value="Test 2" />
         </td>
-    </form>
-      <form action="test2.php" method="post" name="test2" >
-        <td >
-            <input  class="button" type="submit" name="test2" value="Test 3" />
-        </td>
-    </form>
+   
 
     <h2>Témata</h2>
 
