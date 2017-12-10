@@ -5,14 +5,14 @@
     if(isset($_POST["testCis"]))
     {
 
-?>
+        ?>
 
         <img src="../obr/cisla1.png">
         <br>
 
-        <form action="cisla1.php" method="post" name="next" >
+        <form action="next.php" method="post" name="next" >
             <td >
-                <input type="submit" name="cisla1" value="Další" />
+                <input type="submit" name="next" value="Další" />
             </td>
         </form>
 

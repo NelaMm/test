@@ -1,120 +1,121 @@
-
+ 
  <?php
 session_start();
 ?> 
 <?php
     ini_set("default_charset", "UTF-8");
 
-	if(isset($_POST["result"]))//tlacitko 
+
+if(isset($_POST["next5"]))//tlacitko
     {
-        $_SESSION["ans6"] = 0;
+         $_SESSION["ans2"] = 0;
         if(isset($_POST["answer1"]))
         {
             $answer = trim($_POST["answer1"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
         if(isset($_POST["answer2"]))
         {
             $answer = trim($_POST["answer2"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
         if(isset($_POST["answer3"]))
         {
             $answer = trim($_POST["answer3"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
         if(isset($_POST["answer4"]))
         {
             $answer = trim($_POST["answer4"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
         if(isset($_POST["answer5"]))
         {
             $answer = trim($_POST["answer5"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
-                            
+             $_SESSION["ans2"] += 0;
+
         }
         if(isset($_POST["answer6"]))
         {
             $answer = trim($_POST["answer6"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
         if(isset($_POST["answer7"]))
         {
             $answer = trim($_POST["answer7"]);
-             $_SESSION["ans6"] += $answer;
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans6"] += 0;
+             $_SESSION["ans2"] += 0;
 
         }
-        $sum=0;
 
-        foreach ( $_SESSION as $val) {
-            $sum += $val;
-        }
-        $res = round($sum/10*100, 2);
-        if($res<0) $res = 0;
-        echo "Správnost odpovědí je ".$res."%";//procentualni vysledek na 2 desetinna mista
+        ?>
 
-    
-    ?>
 
- <br>
-<a href=../index.php>hlavní stránka</a>
+        <img src="../obr/cisla3.png">
+        <br>
+
+
+<form action="next6.php" method="post" name="next6" >
+    <td >
+        <input type="submit" name="next6" value="Další" />
+    </td>
+</form>
 
 <?php
+
     }
     else{
         exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=../index.php>hlavní stránku</a>.</p>");
