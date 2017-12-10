@@ -19,7 +19,7 @@ ini_set("default_charset", "UTF-8");
         <td >
             <input class="button" type="submit" name="test1" value="Test 2" />
         </td>
-   
+        </form>
 
     <h2>Témata</h2>
 
