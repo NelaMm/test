@@ -56,7 +56,7 @@ ini_set("default_charset", "UTF-8");
 </table>
 
 <h3>Obrázky</h3>
- <form action="testObr.php" method="post" name="testObr" >
+ <form action="obrazky/obrazky.php" method="post" name="testObr" >
         <td >
             <input  class="button" type="submit" name="testObr" value="1" />
         </td>
