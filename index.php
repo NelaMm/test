@@ -46,11 +46,20 @@ ini_set("default_charset", "UTF-8");
 </table>
 
 <h3>Barvy</h3>
+
+<table align="center">
  <form action="barva1/testBar.php" method="post" name="barva1/testBar" >
         <td >
             <input  class="button" type="submit" name="testBar" value="1" />
         </td>
     </form>
+     <form action="barva2/testBar.php" method="post" name="barva2/testBar" >
+        <td >
+            <input  class="button" type="submit" name="testBar1" value="2" />
+        </td>
+    </form>
+</table>
+
 <h3>Obrázky</h3>
  <form action="testObr.php" method="post" name="testObr" >
         <td >
