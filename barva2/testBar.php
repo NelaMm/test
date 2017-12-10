@@ -1,7 +1,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barvy 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
@@ -15,7 +15,10 @@
 
 <div id=tst align=center>
 
-    Jako první Vám budou zobrazny obrázky (viz níže), po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí týkající se předchozích obrázků, ze kterých vyberete jednu či více možností. Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
+    Jako první Vám budou zobrazeny obrázky (viz níže),<br>
+     po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí <br>
+     týkající se předchozích obrázků, ze kterých vyberete jednu či více možností.<br>
+      Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
 
         <br>
 
