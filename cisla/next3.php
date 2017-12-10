@@ -1,8 +1,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Čísla</title>
+<title>Barvy 2</title>
 <link rel="stylesheet" type="text/css" href="../style.css">   
 </head>
+
  
  <?php
 session_start();
@@ -28,8 +29,9 @@ session_start();
         }
 
         ?>
+<div id=tst align=center>
 
-        <img src="../obr/cisla3.png" width="360" class="edge">
+        <img src="../obr/houbari.jpg" width="800" height="450">
         <br>
 
         <form action="next4.php" method="post" name="next4" >
@@ -37,7 +39,7 @@ session_start();
                 <input type="submit" name="next4" value="Další" />
             </td>
         </form>
-
+</div>
 <?php
 
     }

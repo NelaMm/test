@@ -1,29 +1,31 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Čísla</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<title>Barvy 2</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-   
+
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next2"]))
     {?>
+        <div id=tst align=center>
 
-       
+      <h2><br>Která barva nebyla na obrázku?<br></h2>
 
-        <img src="../obr/cisla2a.png" width="360" class="edge">
-    	<br>Které číslo schází?<br>
+        <form action="next3.php" method="post" name="next3">
 
-      <form action="next3.php" method="post" name="next3">
-    	
-      1.<input type="radio" name="answer" value="0">83<br>
-    	2.<input type="radio" name="answer" value="1">98<br>
-    	3.<input type="radio" name="answer" value="0">15<br>
-    	4.<input type="radio" name="answer" value="0">89<br>
-    	5.<input type="radio" name="answer" value="0">55<br>
-       
+
+    <table><td bgcolor="#0183f8"> <input type="radio" name="answer" value="0"> &nbsp &nbsp &nbsp &nbsp</td></table>
+        <table><td bgcolor="#fd8a02"> <input type="radio" name="answer" value="0"> &nbsp &nbsp &nbsp &nbsp</td></table>
+      <table> <td bgcolor="#FF0000"><input type="radio" name="answer" value="0"> &nbsp &nbsp &nbsp &nbsp</td> </table>
+        <table><td bgcolor="#ffff00"><input type="radio" name="answer" value="0">  &nbsp &nbsp &nbsp &nbsp</td> </table>
+       <table> <td bgcolor="#e764aa"><input type="radio" name="answer"  value="1"> &nbsp &nbsp &nbsp &nbsp</td> </table>
+
+
         <br><input type="submit" name="next3" value="Odpovědět" />
         </form>
+    </div>
 
 <?php
 
