@@ -6,7 +6,7 @@
      
 
 
-    	<br>Na kterém obrázku bylo nejevíce ptáčků?<br>
+    	<br>Na kterém obrázku bylo nejvíce ptáčků?<br>
 
         <form action="next5.php" method="post" name="next5">
         
