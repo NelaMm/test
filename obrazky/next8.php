@@ -6,7 +6,7 @@
      
 
 
-    	<br>Na kterem z obrazku nebyl zluty ptacek?<br>
+    	<br>Na kterém obrázku nebyl žlutý ptáček?<br>
 
         <form action="next9.php" method="post" name="next9">
         

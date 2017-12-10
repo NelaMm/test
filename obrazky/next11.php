@@ -24,7 +24,7 @@ session_start();
 
 ?>
 
-        <br>Pokud jste pamatujes, na jekem z obrazku byl zluty ptacek z prvni otazky?<br>
+        <br>Pamatuješ si na jekém obrázku byl žlutý ptáček z první otázky?<br>
 
 
 <form action="result.php" method="post" name="result" >

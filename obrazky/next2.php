@@ -6,7 +6,7 @@
 
        
        
-    	<br>Na kterem z obrazku se nachazil zluty ptacek tentokrat?<br>
+    	<br>Na kterém obrázku se nacházel žlutý ptáček tentokrát?<br>
 
       <form action="next3.php" method="post" name="next3">
     	

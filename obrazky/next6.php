@@ -5,7 +5,7 @@
     {?>
 
 
-    	<br>Na kterem z obrazku bylo 3 zlutych ptacka?<br>
+    	<br>Na kterém obrázku byli 3 žlutí ptáčci?<br>
 
 
 <form action="next7.php" method="post" name="next7">
