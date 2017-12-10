@@ -1,15 +1,13 @@
-
-<?php
-    ini_set("default_charset", "UTF-8");
-
-    if(isset($_POST["test"]))
-    {                                                                                                                                          <head>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
 <link rel="stylesheet" type="text/css" href="../style.css">   
 </head>
+<?php
+    ini_set("default_charset", "UTF-8");
 
- 
+    if(isset($_POST["test"]))
+    {                                                                                                                          
 
         ?>
 
