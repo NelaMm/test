@@ -19,9 +19,26 @@ ini_set("default_charset", "UTF-8");
         </td>
     </form>
 
-      <form action="temata.php" method="post" name="temata" >
+    <h2>Témata</h2>
+
+<h3>Čísla</h3>
+
+ <form action="cisla/cisla.php" method="post" name="testCis" >
         <td >
-            <input type="submit" name="temata" value="Témata" />
+            <input type="submit" name="testCis" value="Test" />
         </td>
     </form>
+<h3>Barvy</h3>
+ <form action="testBar.php" method="post" name="testBar" >
+        <td >
+            <input type="submit" name="testBar" value="Test" />
+        </td>
+    </form>
+<h3>Obrázky</h3>
+ <form action="testObr.php" method="post" name="testObr" >
+        <td >
+            <input type="submit" name="testObr" value="Test" />
+        </td>
+    </form>
+
 </div>   
