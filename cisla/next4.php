@@ -1,29 +1,32 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barvy 2</title>
+<title>Čísla</title>
 <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
-
+<div id=tst align=center>
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next4"]))
     {?>
 
-<div id=tst align=center>
-      <h2>  <br>Slečna na obrázku měla oblečení v kombinaci těchto barev:<br></h2>
+
+        <img src="../obr/cisla3a.png" width="360" class="edge">
+    	<h2><br>Které čísla schází?<br></h2>
 
         <form action="next5.php" method="post" name="next5">
 
 
-       <input type="radio" name="answer" value="0"> Šedá, červená.<br>
-        <input type="radio" name="answer" value="1"> Modrá, hnědá.<br>
-       <input type="radio" name="answer" value="0"> Hnědá, zelená.<br>
-       <input type="radio" name="answer" value="0"> Červená, hnědá.<br>
+       <input type="checkbox" name="answer1" value="-1">48<br>
+        <input type="checkbox" name="answer2" value="1">47<br>
+       <input type="checkbox" name="answer3" value="-1">67<br>
+       <input type="checkbox" name="answer4" value="-1">91<br>
+        <input type="checkbox" name="answer5" value="-1">53<br>
+        <input type="checkbox" name="answer6" value="1">63<br>
+        <input type="checkbox" name="answer7" value="-1">Jiné<br>
 
         <input type="submit" name="next5" value="Odpovědět" />
         </form>
-</div>
+
 <?php
 
     }

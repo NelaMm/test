@@ -1,103 +1,36 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barvy 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<title>Čísla</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
-
+<div id=tst align=center>
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
 
 	if(isset($_POST["next11"]))//tlacitko
     {
-         $_SESSION["ans5"] = 0;
-        if(isset($_POST["answer1"]))
+        if(isset($_POST["answer"]))
         {
-            $answer = trim($_POST["answer1"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
+            $answer = trim($_POST["answer"]);
+             $_SESSION["ans5"] = $answer;
+           /* if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans5"] += 0;
-
-        }
-        if(isset($_POST["answer2"]))
-        {
-            $answer = trim($_POST["answer2"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans5"] += 0;
-
-        }
-        if(isset($_POST["answer3"]))
-        {
-            $answer = trim($_POST["answer3"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans5"] += 0;
-
-        }
-        if(isset($_POST["answer4"]))
-        {
-            $answer = trim($_POST["answer4"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans5"] += 0;
-
-        }
-        if(isset($_POST["answer5"]))
-        {
-            $answer = trim($_POST["answer5"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans5"] += 0;
-
-        }
-        if(isset($_POST["answer6"]))
-        {
-            $answer = trim($_POST["answer6"]);
-             $_SESSION["ans5"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans5"] += 0;
+             $_SESSION["ans5"] = 0;
 
         }
 
 ?>
-<div id=tst align=center>
-    Červená Fialová Černá Hnědá Bílá Zlatá 
-<br>
+
+        <img src="../obr/cisla4.png" width="360" class="edge">
+        <br>
 
 
 <form action="next12.php" method="post" name="next12" >
@@ -105,7 +38,7 @@ session_start();
         <input type="submit" name="next12" value="Další" />
     </td>
 </form>
-</div>
+
 <?php
 
     }

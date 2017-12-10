@@ -1,58 +1,116 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barvy 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<title>Čísla</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
- 
+ <div id=tst align=center>
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
 
-	if(isset($_POST["next5"]))//tlacitko
+if(isset($_POST["next5"]))//tlacitko
     {
-        if(isset($_POST["answer"]))
+         $_SESSION["ans2"] = 0;
+        if(isset($_POST["answer1"]))
         {
-            $answer = trim($_POST["answer"]);
-             $_SESSION["ans2"] = $answer;
+            $answer = trim($_POST["answer1"]);
+             $_SESSION["ans2"] += $answer;
             /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-           $_SESSION["ans2"] = 0;
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer2"]))
+        {
+            $answer = trim($_POST["answer2"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer3"]))
+        {
+            $answer = trim($_POST["answer3"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer4"]))
+        {
+            $answer = trim($_POST["answer4"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer5"]))
+        {
+            $answer = trim($_POST["answer5"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer6"]))
+        {
+            $answer = trim($_POST["answer6"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
+
+        }
+        if(isset($_POST["answer7"]))
+        {
+            $answer = trim($_POST["answer7"]);
+             $_SESSION["ans2"] += $answer;
+            /*if($answer==1)
+                 echo "Správná odpověd";
+            else
+                echo "Špatná odpověď";*/
+        }
+        else{
+             $_SESSION["ans2"] += 0;
 
         }
 
         ?>
 
-<style>
-table, td {
-    border: 1px solid black;
-}
-</style>
-<div id=tst align=center>
-<table>
- <tr>
-    <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
-  </tr>
-  <tr>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-     <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
-  </tr>
-  <tr>
-    <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
-     <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#FF0000"> &nbsp &nbsp &nbsp &nbsp</td>
-  </tr>
-</table>
+
+        <img src="../obr/cisla3.png" width="360" class="edge">
+        <br>
 
 
 <form action="next6.php" method="post" name="next6" >
@@ -60,7 +118,7 @@ table, td {
         <input type="submit" name="next6" value="Další" />
     </td>
 </form>
-</div>
+
 <?php
 
     }

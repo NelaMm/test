@@ -1,157 +1,37 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barvy 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<title>Čísla</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
-
+<div id=tst align=center>
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
-
-    if(isset($_POST["next9"]))//tlacitko
+	if(isset($_POST["next9"]))//tlacitko
     {
-         $_SESSION["ans4"] = 0;
-        if(isset($_POST["answer1"]))
+        if(isset($_POST["answer"]))
         {
-            $answer = trim($_POST["answer1"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
+            $answer = trim($_POST["answer"]);
+             $_SESSION["ans4"] = $answer;
+           /* if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer2"]))
-        {
-            $answer = trim($_POST["answer2"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer3"]))
-        {
-            $answer = trim($_POST["answer3"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer4"]))
-        {
-            $answer = trim($_POST["answer4"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer5"]))
-        {
-            $answer = trim($_POST["answer5"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer6"]))
-        {
-            $answer = trim($_POST["answer6"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer7"]))
-        {
-            $answer = trim($_POST["answer7"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer8"]))
-        {
-            $answer = trim($_POST["answer8"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
-
-        }
-        if(isset($_POST["answer9"]))
-        {
-            $answer = trim($_POST["answer9"]);
-             $_SESSION["ans4"] += $answer;
-            /*if($answer==1)
-                 echo "Správná odpověd";
-            else
-                echo "Špatná odpověď";*/
-        }
-        else{
-             $_SESSION["ans4"] += 0;
+             $_SESSION["ans4"] = 0;
 
         }
 
-?>
- 
+        ?>
 
-<div id=tst align=center>
 
-    
-<table>
- <tr>
-    <td bgcolor="#0000FF"> &nbsp &nbsp &nbsp &nbsp</td>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#00FFF0"> &nbsp &nbsp &nbsp &nbsp</td>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#F000FF"> &nbsp &nbsp &nbsp &nbsp</td>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
-    <td> &nbsp &nbsp &nbsp &nbsp</td>
-    <td bgcolor="#FF0000"> &nbsp &nbsp &nbsp &nbsp</td>
-  </tr>
-</table>
+
+    <img src="../obr/cisla3.png" width="360" class="edge">
+        <br>
 
         <br>
 
@@ -160,8 +40,6 @@ session_start();
                 <input type="submit" name="next10" value="Další" />
             </td>
         </form>
-
-    </div>
 
 <?php
     }

@@ -1,29 +1,33 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Barvy 2</title>
+<title>Čísla</title>
 <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-
-
+<div id=tst align=center>
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next12"]))
     {?>
-     <div id=tst align=center>
-      <h2>  <br>Která barva nebyla uvedena?<br></h2>
+
+        <img src="../obr/cisla4a.png" width="360" class="edge">
+    	<h2><br>Které čísla schází?<br></h2>
 
         <form action="result.php" method="post" name="result">
 
 
-       <input type="radio" name="answer" value="0">Zlatá<br>
-        <input type="radio" name="answer" value="0">Červená<br>
-       <input type="radio" name="answer" value="1">Oranžová<br>
-        <input type="radio" name="answer" value="0">Fialová<br>
-        <input type="radio" name="answer" value="0">Hnědá<br>
+       <input type="checkbox" name="answer1" value="1">63<br>
+        <input type="checkbox" name="answer2" value="-1">69<br>
+       <input type="checkbox" name="answer3" value="-1">26<br>
+       <input type="checkbox" name="answer4" value="-1">25<br>
+        <input type="checkbox" name="answer5" value="1">16<br>
+        <input type="checkbox" name="answer6" value="1">36<br>
+        <input type="checkbox" name="answer7" value="-1">33<br>
+        <input type="checkbox" name="answer8" value="-1">57<br>
+        <input type="checkbox" name="answer9" value="-1">Jiné<br>
 
         <input type="submit" name="result" value="Odpovědět a vyhodnotit" />
         </form>
-</div>
+
 <?php
 
     }
