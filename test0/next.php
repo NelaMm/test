@@ -3,7 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next"]))
     {?>
-    	
+    	<div id=tst align=center>
     	<br>Která značka nebyla v obrázcích?<br>
 
         <form action="next1.php" method="post" name="next1">
@@ -16,6 +16,7 @@
 
         <input type="submit" name="next1" value="Odpovědět" />
         </form>
+    </div>
 
 <?php
 

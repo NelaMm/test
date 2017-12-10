@@ -3,7 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next12"]))
     {?>
-     
+     <div id=tst align=center>
         <br>Kolik bylo na obrázku lidí?<br>
 
         <form action="result.php" method="post" name="result">
@@ -21,7 +21,7 @@
 
         <input type="submit" name="result" value="Odpovědět a vyhodnotit" />
         </form>
-
+</div>
 <?php
 
     }

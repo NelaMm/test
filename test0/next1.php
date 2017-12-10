@@ -25,7 +25,7 @@ session_start();
         }
 
         ?>
-
+<div id=tst align=center>
         <img src="../obr/obr2.png" width="100" height="100">
         <img src="../obr/obr3.png" width="100" height="100">
         <img src="../obr/obr4.png" width="100" height="100">
@@ -38,7 +38,7 @@ session_start();
                 <input type="submit" name="next2" value="Další" />
             </td>
         </form>
-
+</div>
 <?php
     }
     else{

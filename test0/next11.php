@@ -128,7 +128,7 @@ session_start();
         }
 
 ?>
-
+<div id=tst align=center>
 <img src="../obr/lide.jpg" width="693" height="462">
 <br>
 
@@ -138,7 +138,7 @@ session_start();
         <input type="submit" name="next12" value="Další" />
     </td>
 </form>
-
+</div>
 <?php
 
     }

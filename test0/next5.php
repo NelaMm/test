@@ -29,7 +29,7 @@ table, td {
     border: 1px solid black;
 }
 </style>
-
+<div id=tst align=center>
 <table>
  <tr>
     <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
@@ -54,7 +54,7 @@ table, td {
         <input type="submit" name="next6" value="Další" />
     </td>
 </form>
-
+</div>
 <?php
 
     }

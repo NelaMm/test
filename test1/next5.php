@@ -23,7 +23,7 @@ session_start();
         }
 
         ?>
-
+<div id=tst align=center>
 <style>
 table, td {
     border: 1px solid black;
@@ -54,7 +54,7 @@ table, td {
         <input type="submit" name="next6" value="Další" />
     </td>
 </form>
-
+</div>
 <?php
 
     }

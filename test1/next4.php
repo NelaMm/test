@@ -3,7 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next4"]))
     {?>
-     
+     <div id=tst align=center>
 
         <br>Bylo na SPZ číslo 7?<br>
 
@@ -16,6 +16,7 @@
 
         <input type="submit" name="next5" value="Odpovědět" />
         </form>
+    </div>
 
 <?php
 

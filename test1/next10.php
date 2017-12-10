@@ -3,7 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next10"]))
     {?>
-
+<div id=tst align=center>
         <br>Které barvy byly na obrázku?<br>
 
         <form action="next11.php" method="post" name="next11">
@@ -18,7 +18,7 @@
 
         <input type="submit" name="next11" value="Odpovědět" />
         </form>
-
+</div>
 <?php
 
     }

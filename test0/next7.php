@@ -128,7 +128,7 @@ session_start();
         }
 
 ?>
-
+<div id=tst align=center>
 <img src="../obr/spz2.jpg" width="192" height="50">
 <br>
 
@@ -138,6 +138,7 @@ session_start();
         <input type="submit" name="next8" value="Další" />
     </td>
 </form>
+</div>
 
 <?php
     }

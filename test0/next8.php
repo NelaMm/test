@@ -4,7 +4,7 @@
     if(isset($_POST["next8"]))
     {?>
      
-
+<div id=tst align=center>
         <br>Jaká SPZ byla na obrázku?<br>
 
         <form action="next9.php" method="post" name="next9">
@@ -19,7 +19,7 @@
         
         <input type="submit" name="next9" value="Odpovědět" />
         </form>
-
+</div>
 <?php
 
     }

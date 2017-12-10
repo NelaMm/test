@@ -23,7 +23,7 @@ session_start();
         }
 
         ?>
-
+<div id=tst align=center>
         <img src="../obr/auto.jpg" width="800" height="450">
         <br>
 
@@ -32,7 +32,7 @@ session_start();
                 <input type="submit" name="next4" value="Další" />
             </td>
         </form>
-
+</div>
 <?php
 
     }

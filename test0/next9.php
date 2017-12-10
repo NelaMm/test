@@ -24,7 +24,7 @@ session_start();
         ?>
 
 
-
+<div id=tst align=center>
 <table>
  <tr>
     <td bgcolor="#00FF00"> &nbsp &nbsp &nbsp &nbsp</td>
@@ -46,6 +46,8 @@ session_start();
                 <input type="submit" name="next10" value="Další" />
             </td>
         </form>
+
+    </div>
 
 <?php
     }

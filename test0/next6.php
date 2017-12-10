@@ -3,7 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next6"]))
     {?>
-
+<div id=tst align=center>
 <br>Označte původně zelená pole.<br>
 
 <style>
@@ -52,7 +52,7 @@ table, td {
 
         <br><input type="submit" name="next7" value="Odpovědět" />
         </form>
-
+</div>
 <?php
 
     }

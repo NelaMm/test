@@ -4,7 +4,7 @@
     if(isset($_POST["next4"]))
     {?>
      
-
+<div id=tst align=center>
         <br>Jakou tovární značku mělo auto na obrázku?<br>
 
         <form action="next5.php" method="post" name="next5">
@@ -19,7 +19,7 @@
 
         <input type="submit" name="next5" value="Odpovědět" />
         </form>
-
+</div>
 <?php
 
     }

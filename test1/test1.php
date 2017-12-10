@@ -6,7 +6,7 @@
     {
 
         ?>
-
+<div id=tst align=center>
         <img src="../obr/obr7.png" width="100" height="100">
         <img src="../obr/obr9.png" width="100" height="100">
         <img src="../obr/obr4.png" width="100" height="100">
@@ -19,7 +19,7 @@
                 <input type="submit" name="next" value="Další" />
             </td>
         </form>
-
+</div>
 
 <?php
     }

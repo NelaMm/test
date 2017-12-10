@@ -3,6 +3,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next2"]))
     {?>
+        <div id=tst align=center>
         <img src="../obr/obr10.png" width="100" height="100">
        
 
@@ -15,6 +16,7 @@
        
         <br><input type="submit" name="next3" value="Odpovědět" />
         </form>
+    </div>
 
 <?php
 

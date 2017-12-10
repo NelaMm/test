@@ -7,7 +7,8 @@
 
         ?>
 
-        <img src="../obr/obr1.png" width="100" height="100">
+<div id=tst align=center>
+     <img src="../obr/obr1.png" width="100" height="100">
         <img src="../obr/obr5.png" width="100" height="100">
         <img src="../obr/obr7.png" width="100" height="100">
         <img src="../obr/obr8.gif" width="100" height="100">
@@ -20,6 +21,7 @@
             </td>
         </form>
 
+<div>
 
 <?php
     }
