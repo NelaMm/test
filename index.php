@@ -8,7 +8,7 @@ ini_set("default_charset", "UTF-8");
             <input type="submit" name="test" value="Test" />
         </td>
     </form>
-      <form action="test1.php" method="post" name="test1" >
+      <form action="test1/test1.php" method="post" name="test1/test1" >
         <td >
             <input type="submit" name="test1" value="Test 1" />
         </td>
