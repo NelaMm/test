@@ -26,7 +26,7 @@ session_start();
 
         ?>
 
-        <img src="../obr/cisla2.png">
+        <img src="../obr/cisla2.png" width="360" class="edge">
         <br>
 
         <form action="next2.php" method="post" name="next2" >

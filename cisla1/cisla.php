@@ -2,12 +2,12 @@
 <?php
     ini_set("default_charset", "UTF-8");
 
-    if(isset($_POST["testCis"]))
+    if(isset($_POST["testCis1"]))
     {
 
         ?>
 
-        <img src="../obr/cisla1.png" width="240" class="edge">
+        <img src="../obr/1cisla1.png" width="240" class="edge">
         <br>
 
         <form action="next.php" method="post" name="next" >

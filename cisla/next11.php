@@ -24,7 +24,7 @@ session_start();
 
 ?>
 
-        <img src="../obr/cisla4.png">
+        <img src="../obr/cisla4.png" width="360" class="edge">
         <br>
 
 

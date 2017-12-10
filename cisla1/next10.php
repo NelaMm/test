@@ -4,15 +4,15 @@
     if(isset($_POST["next10"]))
     {?>
 
-        <img src="../obr/cisla3d.png" width="360" class="edge">
+        <img src="../obr/1cisla3d.png" width="360" class="edge">
     	<br>Které čísla schází? Ukažte ve správném pořadí.<br>
 
         <form action="next11.php" method="post" name="next11">
         
        
-      1.<input type="radio" name="answer" value="1">16 98 15<br>
-    	2.<input type="radio" name="answer" value="0">16 15 98<br>
-    	3.<input type="radio" name="answer" value="0">16 96 51<br>
+      1.<input type="radio" name="answer" value="0">16 98 69<br>
+    	2.<input type="radio" name="answer" value="1">87 65 83<br>
+    	3.<input type="radio" name="answer" value="0">83 65 89<br>
     	4.<input type="radio" name="answer" value="0">98 51 16<br>
     	5.<input type="radio" name="answer" value="0">Jiné<br>
 

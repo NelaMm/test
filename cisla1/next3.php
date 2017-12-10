@@ -1,4 +1,4 @@
-
+ 
  <?php
 session_start();
 ?> 
@@ -6,35 +6,35 @@ session_start();
     ini_set("default_charset", "UTF-8");
 
 
-	if(isset($_POST["next7"]))//tlacitko
+	if(isset($_POST["next3"]))//tlacitko
     {
         if(isset($_POST["answer"]))
         {
             $answer = trim($_POST["answer"]);
-             $_SESSION["ans3"] = $answer;
-           /* if($answer==1)
+             $_SESSION["ans1"] = $answer;
+            /*if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans3"] = 0;
+             $_SESSION["ans1"] = 0;
 
         }
 
-?>
+        ?>
 
-    <img src="../obr/cisla3.png" width="360" class="edge">
+        <img src="../obr/1cisla3.png" width="360" class="edge">
         <br>
 
-
-<form action="next8.php" method="post" name="next8" >
-    <td >
-        <input type="submit" name="next8" value="Další" />
-    </td>
-</form>
+        <form action="next4.php" method="post" name="next4" >
+            <td >
+                <input type="submit" name="next4" value="Další" />
+            </td>
+        </form>
 
 <?php
+
     }
     else{
         exit("<p><strong>Error!</strong> Nacházíte se na špatné stránce. Vráťe se na <a href=../index.php>hlavní stránku</a>.</p>");

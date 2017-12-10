@@ -5,34 +5,36 @@ session_start();
 <?php
     ini_set("default_charset", "UTF-8");
 
-
-	if(isset($_POST["next7"]))//tlacitko
+	if(isset($_POST["next9"]))//tlacitko 
     {
         if(isset($_POST["answer"]))
         {
             $answer = trim($_POST["answer"]);
-             $_SESSION["ans3"] = $answer;
+             $_SESSION["ans4"] = $answer;
            /* if($answer==1)
                  echo "Správná odpověd";
             else
                 echo "Špatná odpověď";*/
         }
         else{
-             $_SESSION["ans3"] = 0;
+             $_SESSION["ans4"] = 0;
 
         }
 
-?>
+        ?>
 
-    <img src="../obr/cisla3.png" width="360" class="edge">
+
+
+    <img src="../obr/1cisla3.png" width="360" class="edge">
         <br>
 
+        <br>
 
-<form action="next8.php" method="post" name="next8" >
-    <td >
-        <input type="submit" name="next8" value="Další" />
-    </td>
-</form>
+        <form action="next10.php" method="post" name="next10" >
+            <td >
+                <input type="submit" name="next10" value="Další" />
+            </td>
+        </form>
 
 <?php
     }
