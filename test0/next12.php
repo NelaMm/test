@@ -1,20 +1,20 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-    
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next12"]))
     {?>
      <div id=tst align=center>
-        <br>Kolik bylo na obrázku lidí?<br>
+        <h2><br>Kolik bylo na obrázku lidí?<br></h2>
 
         <form action="result.php" method="post" name="result">
-        
-       
+
+
        <input type="radio" name="answer" value="0"> 0<br>
         <input type="radio" name="answer" value="0"> 1<br>
        <input type="radio" name="answer" value="0">2 <br>

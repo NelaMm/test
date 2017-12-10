@@ -1,19 +1,21 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <?php
     ini_set("default_charset", "UTF-8");
 
     if(isset($_POST["test"]))
-    {                                                                                                                          
+    {
 
         ?>
 
 <div id=tst align=center>
-    Souhrnný test se týká všech témat - čísla, obrázky i barvy.<br>
-    Jako první Vám budou zobrazny obrázky (viz níže), po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí týkající se předchozích obrázků, ze kterých vyberete jednu či více možností. Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
+  Souhrnný test se týká všech témat - čísla, obrázky i barvy.<br>
+  Jako první Vám budou zobrazeny obrázky (viz níže),<br>
+  po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí<br>
+  týkající se předchozích obrázků, ze kterých vyberete jednu či více možností.<br> Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
      <img src="../obr/obr1.png" width="100" height="100">
         <img src="../obr/obr5.png" width="100" height="100">
         <img src="../obr/obr7.png" width="100" height="100">
@@ -23,7 +25,7 @@
 
         <form action="next.php" method="post" name="next" >
             <td >
-                <input type="submit" name="next" value="Další" />
+                <input class="button" type="submit" name="next" value="Další" />
             </td>
         </form>
 

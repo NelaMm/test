@@ -1,17 +1,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
- 
+
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
-	if(isset($_POST["result"]))//tlacitko 
+	if(isset($_POST["result"]))//tlacitko
     {
         if(isset($_POST["answer"]))
         {
@@ -33,15 +33,15 @@ session_start();
         }
         $res = round($sum/13*100, 2);
         if($res<0) $res = 0;
-        echo "Správnost odpovědí je ".$res."%";//procentualni vysledek na 2 desetinna mista
+        echo "<h2>Správnost odpovědí je ".$res."%</h2>";//procentualni vysledek na 2 desetinna mista
 
-    
+
     ?>
 
  <br>
 <a href=../index.php>hlavní stránka</a>
 
-    
+
 <?php
     }
     else{
