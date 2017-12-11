@@ -32,7 +32,8 @@ if(isset($_POST["next5"]))//tlacitko
         ?>
 
 
-        <img src="../obr/4.png" width="480" class="edge">
+        <a href="https://ibb.co/domKhw"><img width="480" class="edge" src="https://preview.ibb.co/i48oaG/4.png" alt="4" border="0"></a>
+
         <br>
 
 

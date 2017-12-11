@@ -10,7 +10,7 @@
     if(isset($_POST["next2"]))
     {?>
         <div id=tst align=center>
-        <img src="../obr/obr10.png" width="100" height="100">
+          <a href="https://ibb.co/fSoRUb"><img width="100" height="100" src="https://preview.ibb.co/euDt9b/obr10.png" alt="obr10" border="0"></a>
 
 <h2>
         <br>Byla tato značka mezi obrázky?<br>

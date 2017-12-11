@@ -30,7 +30,7 @@ session_start();
 
 ?>
 
-    <img src="../obr/5.png" width="480" class="edge">
+<a href="https://ibb.co/fiWD9b"><img width="480" class="edge" src="https://preview.ibb.co/gG7mUb/5.png" alt="5" border="0"></a>
         <br>
 
 

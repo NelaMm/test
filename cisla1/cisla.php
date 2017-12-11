@@ -12,7 +12,7 @@
 
         ?>
 
-        <img src="../obr/1cisla1.png" width="240" class="edge">
+  <a href="https://imgbb.com/"><img width="240" class="edge" src="https://image.ibb.co/n5UGUb/1cisla1.png" alt="1cisla1" border="0"></a>
         <br>
 
         <form action="next.php" method="post" name="next" >

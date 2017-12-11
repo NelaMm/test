@@ -29,7 +29,7 @@ session_start();
 
 ?>
 
-        <img src="../obr/cisla4.png" width="360" class="edge">
+<a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/nktApb/cisla4.png" alt="cisla4" border="0"></a>
         <br>
 
 

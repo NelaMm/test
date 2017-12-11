@@ -9,8 +9,7 @@
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next12"]))
     {?>
-
-        <img src="../obr/1cisla4a.png" width="480" class="edge">
+  <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/cMTbUb/1cisla4a.png" alt="1cisla4a" border="0"></a>
     	<h2><br>Které čísla schází?<br></h2>
 
         <form action="result.php" method="post" name="result">

@@ -1,13 +1,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -135,7 +135,8 @@ session_start();
 
 ?>
 <div id=tst align=center>
-<img src="../obr/cz4.png" width="192" height="50">
+  <a href="https://ibb.co/ecAjFG"><img width="192" height="50" src="https://preview.ibb.co/fAkJaG/cz4.png" alt="cz4" border="0"></a>
+<br>
 <br>
 
 

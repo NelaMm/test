@@ -10,7 +10,8 @@
     {?>
 
 
-        <img src="../obr/cisla3c.png" width="360" class="edge">
+      <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/jmsQNw/cisla3c.png" alt="cisla3c" border="0"></a>
+        	<br>Které čísla schází? Ukažte ve správném pořadí.<br>
     	<h2><br>Které čísla schází? Ukažte ve správném pořadí.<br></h2>
 
         <form action="next9.php" method="post" name="next9">

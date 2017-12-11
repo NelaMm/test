@@ -9,7 +9,8 @@
     if(isset($_POST["next"]))
     {?>
 
-    	 <img src="../obr/cisla1a.png" width="240" class="edge">
+      <a href="https://imgbb.com/"><img width="240" class="edge" src="https://image.ibb.co/n9ji9b/cisla1a.png" alt="cisla1a" border="0"></a>
+     <br>Které číslo schází?<br>
     	<h2><br>Které číslo schází?<br></h2>
 
         <form action="next1.php" method="post" name="next1">

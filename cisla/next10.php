@@ -9,7 +9,7 @@
     if(isset($_POST["next10"]))
     {?>
 
-        <img src="../obr/cisla3d.png" width="360" class="edge">
+  <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/dVHEFG/cisla3d.png" alt="cisla3d" border="0"></a>
     	<h2><br>Které čísla schází? Ukažte ve správném pořadí.<br></h2>
 
         <form action="next11.php" method="post" name="next11">

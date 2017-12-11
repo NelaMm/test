@@ -11,7 +11,7 @@
 
 
 
-        <img src="../obr/cisla2a.png" width="360" class="edge">
+          <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/dRRkNw/cisla2a.png" alt="cisla2a" border="0"></a>
     	<h2><br>Které číslo schází?<br></h2>
 
       <form action="next3.php" method="post" name="next3">

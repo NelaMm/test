@@ -31,7 +31,7 @@ session_start();
 
 
 
-    <img src="../obr/6.png" width="480" class="edge">
+<a href="https://ibb.co/hBtMvG"><img width="480" class="edge" src="https://preview.ibb.co/fWaqpb/6.png" alt="6" border="0"></a>
         <br>
 
         <br>

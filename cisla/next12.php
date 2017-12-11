@@ -9,7 +9,7 @@
     if(isset($_POST["next12"]))
     {?>
 
-        <img src="../obr/cisla4a.png" width="360" class="edge">
+  <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/iqFvNw/cisla4a.png" alt="cisla4a" border="0"></a>
     	<h2><br>Které čísla schází?<br></h2>
 
         <form action="result.php" method="post" name="result">

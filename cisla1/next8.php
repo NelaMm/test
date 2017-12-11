@@ -11,7 +11,7 @@
     {?>
 
 
-        <img src="../obr/1cisla3c.png" width="360" class="edge">
+  <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/keybUb/1cisla3c.png" alt="1cisla3c" border="0"></a>
     	<h2><br>Které čísla schází? Ukažte ve správném pořadí.<br></h2>
 
         <form action="next9.php" method="post" name="next9">

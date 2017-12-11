@@ -9,7 +9,7 @@
     if(isset($_POST["next6"]))
     {?>
 
-<img src="../obr/cisla3b.png" width="360" class="edge">
+<a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/narKhw/cisla3b.png" alt="cisla3b" border="0"></a>
     	<h2><br>Které čísla schází? Ukažte ve správném pořadí.<br></h2>
 
 

@@ -1,12 +1,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barvy</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
- 
+
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -30,7 +30,8 @@ session_start();
         ?>
 <div id=tst align=center>
 
-        <img src="../obr/houbari.jpg" width="800" height="450">
+  <a href="https://imgbb.com/"><img src="https://image.ibb.co/dNV6Ub/houbari.jpg" alt="houbari" border="0" width="800" height="450"></a>
+<br>
         <br>
 
         <form action="next4.php" method="post" name="next4" >

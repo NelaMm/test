@@ -3,19 +3,6 @@
 <title>Test</title>
 <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-<style>
-label > input{ /* HIDE RADIO */
-  visibility: hidden; /* Makes input not-clickable */
-  position: absolute; /* Remove input from document flow */
-}
-label > input + img{ /* IMAGE STYLES */
-  cursor:pointer;
-  border:2px solid transparent;
-}
-label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
-  border:2px solid #bbb;
-}
-</style>
 
 <?php
     ini_set("default_charset", "UTF-8");
@@ -27,34 +14,24 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     </h2>
 
         <form action="next1.php" method="post" name="next1">
-    <label>
-      <input type="radio" name="answer" value="0">
-      <img src="../obr/obr11.png" width="100" height="100">
-    </label>
-      <br>
-    <label>
-      <input type="radio" name="answer" value="0">
-      <img src="../obr/obr5.png" width="100" height="100">
-    </label>
-    <br>
+          <input type="radio" name="answer" value="0">
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/mPk6Ub/obr11.png" alt="obr11" border="0"></a>
+          <br>
+          <input type="radio" name="answer" value="0">
+          <a href="https://ibb.co/dpP0pb"><img width="100" height="100" src="https://preview.ibb.co/mBxaNw/obr5.png" alt="obr5" border="0"></a>
+        <br>
 
-    <label>
-    	<input type="radio" name="answer" value="0">
-      <img src="../obr/obr7.png" width="100" height="100">
-    </label>
-    <br>
+        	<input type="radio" name="answer" value="0">
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/j8FUhw/obr7.png" alt="obr7" border="0"></a>
+        <br>
 
-    <label>
-    	<input type="radio" name="answer" value="1">
-      <img src="../obr/obr9.png" width="100" height="100">
-    </label>
-    <br>
+        	<input type="radio" name="answer" value="1">
+          <a href="https://ibb.co/bwyRUb"><img width="100" height="100" src="https://preview.ibb.co/gL3t9b/obr9.png" alt="obr9" border="0"></a>
+        <br>
 
-    <label>
-    	<input type="radio" name="answer" value="0">
-      <img src="../obr/obr1.png" width="100" height="100">
-    </label>
-    <br>
+        	<input type="radio" name="answer" value="0">
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/d8qUhw/obr1.png" alt="obr1" border="0"></a>
+        <br>
 
         <input type="submit" name="next1" value="Odpovědět" />
         </form>

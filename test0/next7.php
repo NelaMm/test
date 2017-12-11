@@ -1,11 +1,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -133,7 +133,7 @@ session_start();
 
 ?>
 <div id=tst align=center>
-<img src="../obr/spz2.jpg" width="192" height="50">
+  <img src="https://image.ibb.co/evSyaG/cz2.png" alt="cz2" border="0" width="192" height="50" />
 <br>
 
 

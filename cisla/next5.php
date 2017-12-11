@@ -109,7 +109,8 @@ if(isset($_POST["next5"]))//tlacitko
         ?>
 
 
-        <img src="../obr/cisla3.png" width="360" class="edge">
+        <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/dwLC2w/cisla3.png" alt="cisla3" border="0"></a>
+      <br>
         <br>
 
 

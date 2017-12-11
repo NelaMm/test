@@ -30,7 +30,7 @@ session_start();
 
         ?>
 
-        <img src="../obr/3.png" width="480" class="edge">
+  <a href="https://ibb.co/e451vG"><img width="480" class="edge" src="https://preview.ibb.co/hXQ1vG/3.png" alt="3" border="0"></a>
         <br>
 
         <form action="next4.php" method="post" name="next4" >

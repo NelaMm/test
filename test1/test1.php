@@ -15,11 +15,11 @@
 <div id=tst align=center>
     Souhrnný test se týká všech témat - čísla, obrázky i barvy.<br>
     Jako první Vám budou zobrazeny obrázky (viz níže),<br> po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí<br> týkající se předchozích obrázků, ze kterých vyberete jednu či více možností.<br> Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
-        <img src="../obr/obr7.png" width="100" height="100">
-        <img src="../obr/obr9.png" width="100" height="100">
-        <img src="../obr/obr4.png" width="100" height="100">
-        <img src="../obr/obr8.gif" width="100" height="100">
-        <img src="../obr/obr11.png" width="100" height="100">
+    <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/j8FUhw/obr7.png" alt="obr7" border="0"></a>
+        <a href="https://ibb.co/bwyRUb"><img width="100" height="100" src="https://preview.ibb.co/gL3t9b/obr9.png" alt="obr9" border="0"></a>
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/gkKY9b/obr4.png" alt="obr4" border="0"></a>
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://preview.ibb.co/hDHLpb/obr8.gif" alt="obr8" border="0"></a>
+          <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/mPk6Ub/obr11.png" alt="obr11" border="0"></a>
         <br>
 
         <form action="next.php" method="post" name="next" >

@@ -31,7 +31,7 @@ session_start();
 
         ?>
 
-        <img src="../obr/cisla2.png" width="360" class="edge">
+        <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/h1rVpb/cisla2.png" alt="cisla2" border="0"></a>
         <br>
 
         <form action="next2.php" method="post" name="next2" >

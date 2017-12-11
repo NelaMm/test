@@ -10,7 +10,8 @@
     {?>
 
 
-        <img src="../obr/cisla3a.png" width="360" class="edge">
+      <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/h41Khw/cisla3a.png" alt="cisla3a" border="0"></a>
+  <br>Které čísla schází?<br>
     	<h2><br>Které čísla schází?<br></h2>
 
         <form action="next5.php" method="post" name="next5">

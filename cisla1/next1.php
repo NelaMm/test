@@ -32,7 +32,7 @@ session_start();
 
         ?>
 
-        <img src="../obr/1cisla2.png" width="240" class="edge">
+  <a href="https://imgbb.com/"><img width="240" class="edge" src="https://image.ibb.co/k4MkNw/1cisla2.png" alt="1cisla2" border="0"></a>
         <br>
 
         <form action="next2.php" method="post" name="next2" >
