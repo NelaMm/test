@@ -6,76 +6,87 @@
 </meta>
 <link href="stylesheets/csschart.css" rel="stylesheet" type="text/css" media="screen" />
 <style>
-body {
-	margin:0;
-	padding:40px;
-	background:#fff;
-	font:70% Arial, Helvetica, sans-serif;
-	color:#555;
-	line-height:180%;
+.percentage:after {
+  content: "";
+  display: block;
+  background-color: #3d9970;
+}
+.percentage-20:after {
+  width: 20%;
+}
+.percentage-30:after {
+  width: 30%;
 }
 
+@for $i from 1 through 100 {
+  .percentage-#{$i}:after {
+    $value: ($i * 1%);
+    width: $value;
+  }
+}
+.percentage {
+  background: repeating-linear-gradient(
+    to right,
+    #ddd,
+    #ddd 1px,
+    #fff 1px,
+    #fff 5%
+  );
+}
 </style>
 </head>
-<body>
-	<h1 id="test"¨>Souhrnné testy</h1>
-<ul class="yAxis">
-	<li>100</li>
-	<li>90</li>
-	<li>80</li>
-	<li>70</li>
-	<li>60</li>
-	<li>50</li>
-	<li>40</li>
-	<li>30</li>
-	<li>20</li>
-	<li>10</li>
-
-</ul>
-	<dl id="csschart">
-
-
-		<dt>Pon</dt>
-		<dd class="p71"><span><b>15</b></span></dd>
-		<dd class="sub p37" ><span><b>1</b></span></dd>
-
-		<dt>Út</dt>
-		<dd class="p64"><span><b>15</b></span></dd>
-		<dd class="sub p28" ><span><b>6</b></span></dd>
-
-		<dt>St</dt>
-		<dd class="p55"><span><b>15</b></span></dd>
-		<dd class="sub p30" ><span><b>4</b></span></dd>
-
-		<dt>Čt</dt>
-		<dd class="p62"><span><b>15</b></span></dd>
-		<dd class="sub p50" ><span><b>8</b></span></dd>
-
-		<dt>Pá</dt>
-		<dd class="p44"><span><b>15</b></span></dd>
-		<dd class="sub p40" ><span><b>12</b></span></dd>
+<body >
+	<dl>
+	  <dt>A title of the graph</dt>
+	  <dd class="percentage">
+	    <span class="text">
+	      Data 1: 20%
+	    </span>
+	  </dd>
+	  <dd class="percentage">
+	    <span class="text">
+	      Data 2: 50%
+	    </span>
+	  </dd>
+	  <dd class="percentage">
+	    <span class="text">
+	      Data 3: 30%
+	    </span>
+	  </dd>
+	</dl>
 
 
-
-
-</dl>
-
-
-<ul class="xAxis">
-	<li>Mon</li>
-	<li>Tue</li>
-	<li>Wed</li>
-	<li>Thu</li>
-	<li>Fri</li>
-	<li>Sat</li>
-	<li>Sun</li>
-	<li>Mon</li>
-	<li>Tue</li>
-	<li>Wed</li>
-	<li>Thu</li>
-	<li>Fri</li>
-
-</ul>More script and css style
-: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a>
+	<table id="q-graph">
+    <caption>Quarterly Results</caption>
+    <thead>
+        <tr>
+         <th></th>
+            <th class="sent">Invoiced</th>
+            <th class="paid">Collected</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="qtr" id="q1">
+        <th scope="row">Q1</th>
+        <td class="sent bar"><p>$18,450.00</p></td>
+        <td class="paid bar"><p>$16,500.00</p></td>
+    </tr>
+        <tr class="qtr" id="q2">
+        <th scope="row">Q2</th>
+        <td class="sent bar"><p>$34,340.72</p></td>
+        <td class="paid bar"><p>$32,340.72</p></td>
+    </tr>
+    <tr class="qtr" id="q3">
+        <th scope="row">Q3</th>
+        <td class="sent bar"><p>$43,145.52</p></td>
+        <td class="paid bar"><p>$32,225.52</p></td>
+    </tr>
+    <tr class="qtr" id="q4">
+        <th scope="row">Q4</th>
+        <td class="sent bar"><p>$18,415.96</p></td>
+        <td class="paid bar"><p>$32,425.00</p></td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>

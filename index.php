@@ -13,7 +13,7 @@ ini_set("default_charset", "UTF-8");
     <h1>Test krátkodobé paměti</h1>
 
     <table align="center">
-     <form action="stat/stat.html" method="post" name="stats" >
+     <form action="stat/stat.php" method="post" name="stats" >
             <td>
                 <input  class="button" type="submit" name="stats" value="Statistiky" />
             </td>
