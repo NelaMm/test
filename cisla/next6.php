@@ -1,15 +1,15 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-   
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next6"]))
     {?>
 
-<img src="../obr/cisla3b.png" width="360" class="edge">
+      <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/narKhw/cisla3b.png" alt="cisla3b" border="0"></a>
     	<br>Které čísla schází? Ukažte ve správném pořadí.<br>
 
 

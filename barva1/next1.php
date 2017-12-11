@@ -1,17 +1,17 @@
 
  <?php
 session_start();
-session_unset(); 
-session_destroy(); 
+session_unset();
+session_destroy();
 session_start();
 ?>
 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barvy</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
- 
+
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -100,8 +100,8 @@ session_start();
 
 <div id=tst align=center>
 
-        <img src="../obr/PrideLogo.png" width="400" height="400">
-       
+  <a href="https://imgbb.com/"><img src="https://image.ibb.co/dGPN2w/Pride_Logo.png" alt="Pride_Logo" border="0" width="400" height="400"></a>
+
         <br>
 
         <form action="next2.php" method="post" name="next2" >

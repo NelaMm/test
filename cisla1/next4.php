@@ -1,22 +1,22 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
-   
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next4"]))
     {?>
-     
 
-        <img src="../obr/1cisla3a.png" width="360" class="edge">
+
+      <a href="https://imgbb.com/"><img  width="360" class="edge" src="https://image.ibb.co/mA0ZFG/1cisla3a.png" alt="1cisla3a" border="0"></a>
     	<br>Které čísla schází?<br>
 
         <form action="next5.php" method="post" name="next5">
-        
-       
+
+
        1.<input type="checkbox" name="answer1" value="-1">56<br>
         2.<input type="checkbox" name="answer2" value="1">65<br>
        3.<input type="checkbox" name="answer3" value="-1">67<br>

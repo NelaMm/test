@@ -3,20 +3,6 @@
 <title>Test 2</title>
 <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-<style>
-label > input{ /* HIDE RADIO */
-  visibility: hidden; /* Makes input not-clickable */
-  position: absolute; /* Remove input from document flow */
-}
-label > input + img{ /* IMAGE STYLES */
-  cursor:pointer;
-  border:2px solid transparent;
-}
-label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
-  border:2px solid #bbb;
-}
-</style>
-
 
 <?php
     ini_set("default_charset", "UTF-8");
@@ -28,31 +14,21 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 
         <form action="next9.php" method="post" name="next9">
 
-      <label>
         <input type="radio" name="answer" value="0">
-        <img src="../obr/cz3.png" width="192" height="50">
-      </label>
+        <a href="https://ibb.co/k2CaNw"><img width="192" height="50" src="https://preview.ibb.co/hCRPFG/cz3.png" alt="cz3" border="0"></a>
       <br>
-      <label>
         <input type="radio" name="answer" value="0">
-        <img src="../obr/spz3.jpg" width="192" height="50">
-      </label>
+        <a href="https://ibb.co/hYRfpb"><img width="192" height="50" src="https://preview.ibb.co/fVyFNw/spz3.jpg" alt="spz3" border="0"></a>
       <br>
-      <label>
        <input type="radio" name="answer" value="0">
-        <img src="../obr/spz4.jpg" width="192" height="50">
-     </label>
+       <a href="https://ibb.co/kt5JaG"><img width="192" height="50" src="https://preview.ibb.co/cQYRUb/spz4.jpg" alt="spz4" border="0"></a>
      <br>
-      <label>
        <input type="radio" name="answer" value="0">
-       <img src="../obr/spz2.jpg" width="192" height="50">
-     </label>
+       <a href="https://ibb.co/bNCWvG"><img width="192" height="50" src="https://preview.ibb.co/jxSLpb/spz2.jpg" alt="spz2" border="0"></a>
      <br>
 
-     <label>
         <input type="radio" name="answer" value="0">
-        <img src="../obr/cz2.png" width="192" height="50">
-      </label>
+        <a href="https://ibb.co/mjP0pb"><img width="192" height="50" src="https://preview.ibb.co/eZ2mUb/cz2.png" alt="cz2" border="0"></a>
       <br>
 
         <input type="radio" name="answer" value="1">Jiná.<br>

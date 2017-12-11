@@ -1,13 +1,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Obrázky</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -30,7 +30,7 @@ session_start();
 
 ?>
 
-    <img src="../obr/5.png" width="480" class="edge">
+<a href="https://ibb.co/fiWD9b"><img width="480" class="edge" src="https://preview.ibb.co/gG7mUb/5.png" alt="5" border="0"></a>
         <br>
 
 

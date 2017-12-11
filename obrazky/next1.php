@@ -1,16 +1,16 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Obrázky</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
  <?php
 session_start();
-session_unset(); 
-session_destroy(); 
+session_unset();
+session_destroy();
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -32,7 +32,7 @@ session_start();
 
         ?>
 
-        <img src="../obr/2.png" width="480" class="edge">
+        <a href="https://ibb.co/bMGVpb"><img width="480" class="edge" src="https://preview.ibb.co/b6qZFG/2.png" alt="2" border="0"></a>
         <br>
 
         <form action="next2.php" method="post" name="next2" >

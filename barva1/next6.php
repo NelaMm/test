@@ -1,9 +1,9 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Barvy</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-   
+
 <?php
     ini_set("default_charset", "UTF-8");
     if(isset($_POST["next6"]))
@@ -21,12 +21,12 @@ table, td {
 <table>
  <tr>
     <td>
-        <input type="checkbox" name="answer1" value="1"> 
+        <input type="checkbox" name="answer1" value="1">
     </td>
     <td>
         <input type="checkbox" name="answer2" value="1">
     </td>
-    <td> 
+    <td>
         <input type="checkbox" name="answer3" value="-1">
     </td>
   </tr>
@@ -35,9 +35,9 @@ table, td {
         <input type="checkbox" name="answer4" value="-1">
     </td>
      <td>
-        <input type="checkbox" name="answer5"  value="-1"> 
+        <input type="checkbox" name="answer5"  value="-1">
     </td>
-    <td> 
+    <td>
         <input type="checkbox" name="answer6" value="1">
     </td>
   </tr>
@@ -48,7 +48,7 @@ table, td {
      <td>
       <input type="checkbox" name="answer8" value="1">
   </td>
-    <td> 
+    <td>
         <input type="checkbox" name="answer9" value="-1">
     </td>
   </tr>

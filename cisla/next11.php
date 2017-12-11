@@ -1,12 +1,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -29,7 +29,7 @@ session_start();
 
 ?>
 
-        <img src="../obr/cisla4.png" width="360" class="edge">
+<a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/nktApb/cisla4.png" alt="cisla4" border="0"></a>
         <br>
 
 

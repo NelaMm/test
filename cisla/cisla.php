@@ -1,7 +1,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
@@ -13,7 +13,7 @@
 
         ?>
 
-        <img src="../obr/cisla1.png" width="240" class="edge">
+        <a href="https://imgbb.com/"><img src="https://image.ibb.co/eQ0ehw/cisla1.png" alt="cisla1" border="0" width="240" class="edge"></a>
         <br>
 
         <form action="next.php" method="post" name="next" >

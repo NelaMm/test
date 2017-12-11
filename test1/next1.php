@@ -1,16 +1,16 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Test 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
  <?php
 session_start();
-session_unset(); 
-session_destroy(); 
+session_unset();
+session_destroy();
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
@@ -32,11 +32,11 @@ session_start();
 
         ?>
 <div id=tst align=center>
-        <img src="../obr/obr1.png" width="100" height="100">
-        <img src="../obr/obr5.png" width="100" height="100">
-        <img src="../obr/obr2.png" width="100" height="100">
-        <img src="../obr/obr6.gif" width="100" height="100">
-        <img src="../obr/obr9.png" width="100" height="100">
+  <a href="https://imgbb.com/"><img width="100" height="100" src="https://image.ibb.co/d8qUhw/obr1.png" alt="obr1" border="0"></a>
+  <a href="https://ibb.co/dpP0pb"><img width="100" height="100" src="https://preview.ibb.co/mBxaNw/obr5.png" alt="obr5" border="0"></a>
+        <a href="https://ibb.co/gEZBvG"><img width="100" height="100" src="https://preview.ibb.co/iJ2aNw/obr2.png" alt="obr2" border="0"></a>
+        <a href="https://imgbb.com/"><img width="100" height="100" src="https://preview.ibb.co/ceB22w/obr6.gif" alt="obr6" border="0"></a>
+        <a href="https://ibb.co/bwyRUb"><img width="100" height="100" src="https://preview.ibb.co/gL3t9b/obr9.png" alt="obr9" border="0"></a>
         <br>
 
         <form action="next2.php" method="post" name="next2" >

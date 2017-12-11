@@ -1,17 +1,17 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Čísla 2</title>
-<link rel="stylesheet" type="text/css" href="../style.css">   
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 
 
  <?php
 session_start();
-?> 
+?>
 <?php
     ini_set("default_charset", "UTF-8");
 
-	if(isset($_POST["next9"]))//tlacitko 
+	if(isset($_POST["next9"]))//tlacitko
     {
         if(isset($_POST["answer"]))
         {
@@ -31,7 +31,7 @@ session_start();
 
 
 
-    <img src="../obr/1cisla3.png" width="360" class="edge">
+        <a href="https://imgbb.com/"><img width="360" class="edge" src="https://image.ibb.co/c97s2w/1cisla3.png" alt="1cisla3" border="0"></a>
         <br>
 
         <br>
