@@ -1,92 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Statistiky</title>
-</meta>
-<link href="stylesheets/csschart.css" rel="stylesheet" type="text/css" media="screen" />
-<style>
-.percentage:after {
-  content: "";
-  display: block;
-  background-color: #3d9970;
-}
-.percentage-20:after {
-  width: 20%;
-}
-.percentage-30:after {
-  width: 30%;
-}
-
-@for $i from 1 through 100 {
-  .percentage-#{$i}:after {
-    $value: ($i * 1%);
-    width: $value;
-  }
-}
-.percentage {
-  background: repeating-linear-gradient(
-    to right,
-    #ddd,
-    #ddd 1px,
-    #fff 1px,
-    #fff 5%
-  );
-}
-</style>
+<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-<body >
-	<dl>
-	  <dt>A title of the graph</dt>
-	  <dd class="percentage">
-	    <span class="text">
-	      Data 1: 20%
-	    </span>
-	  </dd>
-	  <dd class="percentage">
-	    <span class="text">
-	      Data 2: 50%
-	    </span>
-	  </dd>
-	  <dd class="percentage">
-	    <span class="text">
-	      Data 3: 30%
-	    </span>
-	  </dd>
-	</dl>
 
-
-	<table id="q-graph">
-    <caption>Quarterly Results</caption>
-    <thead>
-        <tr>
-         <th></th>
-            <th class="sent">Invoiced</th>
-            <th class="paid">Collected</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr class="qtr" id="q1">
-        <th scope="row">Q1</th>
-        <td class="sent bar"><p>$18,450.00</p></td>
-        <td class="paid bar"><p>$16,500.00</p></td>
-    </tr>
-        <tr class="qtr" id="q2">
-        <th scope="row">Q2</th>
-        <td class="sent bar"><p>$34,340.72</p></td>
-        <td class="paid bar"><p>$32,340.72</p></td>
-    </tr>
-    <tr class="qtr" id="q3">
-        <th scope="row">Q3</th>
-        <td class="sent bar"><p>$43,145.52</p></td>
-        <td class="paid bar"><p>$32,225.52</p></td>
-    </tr>
-    <tr class="qtr" id="q4">
-        <th scope="row">Q4</th>
-        <td class="sent bar"><p>$18,415.96</p></td>
-        <td class="paid bar"><p>$32,425.00</p></td>
-    </tr>
-    </tbody>
-</table>
+<body>
+	<h1>Statistiky</h1>
+	<br>
+	<h2>Nedávné výsledky</h2>
+	<div  align="center">
+	<img src="bar3.png" width="500" align="center">
+	</div>
+	<br>
+	<br>
+	<h2>Kumulované statistiky</h2>
+	<div  align="center">
+	<img src="bar4.jpg" width="500" >
+	<br>
+</div>
 </body>
 </html>
