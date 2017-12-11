@@ -11,13 +11,9 @@ ini_set("default_charset", "UTF-8");
 <div id="test">
 
     <h1>Test krátkodobé paměti</h1>
-    <table align="center">
-   <form action="stat/stat.html" method="post" name="stats" >
-          <td>
-              <input  class="button" type="submit" name="stats" value="Statistiky" />
-          </td>
-      </form>
-  </table>
+    <div align="center">
+    <a href="stat/stat.html"><input type="button" value="Statistiky" /></a>
+  </div>
     <br>
     <br>
       <h2>Souhrnné testy</h2>
