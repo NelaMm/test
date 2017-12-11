@@ -13,8 +13,8 @@
 
 <div id=tst align=center>
   Souhrnný test se týká všech témat - čísla, obrázky i barvy.<br>
-  Jako první Vám budou zobrazeny obrázky (viz níže),<br>
-  po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí<br>
+  Vaším úkolem je zapamatovat si z obrázků co nejvíce informací.<br>
+  Po stisknutí tlačítka "Další" Vám budou zobrazeny možnosti odpovědí<br>
   týkající se předchozích obrázků, ze kterých vyberete jednu či více možností.<br> Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
      <img src="../obr/obr1.png" width="100" height="100">
         <img src="../obr/obr5.png" width="100" height="100">
