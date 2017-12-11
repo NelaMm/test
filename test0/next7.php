@@ -133,7 +133,7 @@ session_start();
 
 ?>
 <div id=tst align=center>
-  <img src="https://image.ibb.co/evSyaG/cz2.png" alt="cz2" border="0" width="192" height="50" />
+  <img src="https://preview.ibb.co/jxSLpb/spz2.jpg" alt="spz2" border="0" width="192" height="50" />
 <br>
 
 
