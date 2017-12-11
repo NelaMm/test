@@ -12,7 +12,7 @@ ini_set("default_charset", "UTF-8");
 
     <h1>Test krátkodobé paměti</h1>
     <div align="center">
-    <a href="stat/stat.html"><input type="button" value="Statistiky" /></a>
+    <a href="stat/stat.php"><input type="button" value="Statistiky" /></a>
   </div>
     <br>
     <br>
