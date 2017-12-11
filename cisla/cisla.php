@@ -13,6 +13,11 @@
 
         ?>
 
+        Jako první Vám bude zobrazena tabulka čísel (viz níže),<br>
+     po stisknutí tlačítka "Další" Vám bude zobrazena ta samá tabulka čísel s jedním až třema prázdnýma políčkama<br>
+      a  možnosti odpovědí, ze kterých vyberete jednu či více možností.<br>
+       Po stisknutí tlačítka "Odpovědět" bude zobrazena tabulka k další otázce.<br>
+            <br>
         <a href="https://imgbb.com/"><img src="https://image.ibb.co/eQ0ehw/cisla1.png" alt="cisla1" border="0" width="240" class="edge"></a>
         <br>
 

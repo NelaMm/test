@@ -11,7 +11,11 @@
     {
 
         ?>
-
+        Jako první Vám budou zobrazeny 4 obrázky (viz níže),<br>
+        po stisknutí tlačítka "Další" Vám bude zobrazena otazka týkající se předchozích obrázků,<br>
+        a odpovědí, ze kterých vyberete pouze jednu možnost.<br>
+       Po stisknutí tlačítka "Odpovědět" budou zobrazeny obrázky k další otázce.<br>
+         <br>
         <a href="https://ibb.co/mjhs2w"><img width="480" class="edge" src="https://preview.ibb.co/dGA1vG/1.png" alt="1" border="0"></a>
                 <br>
         <br>
