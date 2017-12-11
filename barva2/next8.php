@@ -115,7 +115,7 @@ table td{
     <tr>
       <td>
         <label class="container">
-       <input type="checkbox" name="answer7" value="-1">
+       <input type="checkbox" name="answer7" value="1">
         <span class="checkmark"></span>
       </label>
    </td>
