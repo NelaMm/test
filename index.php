@@ -11,6 +11,15 @@ ini_set("default_charset", "UTF-8");
 <div id="test">
 
     <h1>Test krátkodobé paměti</h1>
+
+    <table align="center">
+     <form action="stat/stat.php" method="post" name="stats" >
+            <td>
+                <input  class="button" type="submit" name="stats" value="Statistiky" />
+            </td>
+        </form>
+    </table>
+
     <br>
     <br>
       <h2>Souhrnné testy</h2>
@@ -27,8 +36,7 @@ ini_set("default_charset", "UTF-8");
         </td>
         </form>
         </table>
-        <br>
-        <br>      <br>
+        <br><br><br>
     <h2>Témata</h2>
 
 <h3>Čísla</h3>
@@ -77,4 +85,8 @@ ini_set("default_charset", "UTF-8");
         </td>
     </form>
 </table>
+
+
+
+
 </div>
